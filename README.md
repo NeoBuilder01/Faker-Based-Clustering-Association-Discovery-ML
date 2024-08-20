@@ -1,12 +1,9 @@
 # Faker-Based-Clustering-Association-Discovery-ML
 
-
-Synthetic Data Analysis with PCA, KMeans, and Association Rules
-
-Project Overview:
+## Project Overview:
 This project demonstrates the application of various data analysis techniques on synthetic datasets generated using the Faker library. It integrates Principal Component Analysis (PCA), KMeans clustering, and association rule mining (Apriori algorithm) to provide insights into customer behavior and product associations.
 
-Key Features:
+## Key Features:
 Synthetic Data Generation: Utilizes the Faker library to create realistic synthetic data for product transactions and customer interactions.
 
 Principal Component Analysis (PCA): Applies PCA for dimensionality reduction, helping to visualize and interpret high-dimensional data in a three-dimensional space.
@@ -15,10 +12,10 @@ KMeans Clustering: Implements KMeans clustering to segment customers into distin
 
 Association Rule Mining (Apriori Algorithm): Analyzes product associations using the Apriori algorithm to discover frequent itemsets and generate association rules. Visualizes the top association rules based on support, confidence, and lift metrics.
 
-How It Works
+## How It Works
 Data Generation:
 
-Synthetic data is created to simulate product transactions among customers using the Faker library.
+Using faker library data is created to simulate product transactions among customers using the Faker library.
 The data includes customer IDs and the products they purchase, structured into a DataFrame.
 Data Analysis:
 
